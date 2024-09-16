@@ -15,7 +15,7 @@ function App() {
       <button onClick={toggleText}>
         {isVisible ? 'Ocultar Texto' : 'Mostrar Texto'}
       </button>
-      {isVisible && <p>¡Hola! Este es el texto que aparece y desaparece.</p>}
+      {isVisible && <p>Este es el texto que aparece y desaparece.</p>}
     </div>
   );
 }
